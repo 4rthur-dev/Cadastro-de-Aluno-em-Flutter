@@ -1,17 +1,47 @@
-# login_teste
+Login Teste
 
-Login
+Aplicativo Flutter simples de demonstração contendo telas de Login, Home e Cadastro.
 
-## Getting Started
+Funcionalidades
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+Tela inicial (MyHomePage): botão para acessar a tela de login.
+Login: valida usuário e senha fixos (4rthur / 13567). Exibe mensagens de erro via SnackBar para campos vazios ou credenciais incorretas, e navega para a Home em caso de sucesso.
+Home: tela de boas-vindas com botão de acesso à tela de Cadastro.
+Cadastro: formulário com campos de Nome, Email e Curso (seleção via DropdownMenu com lista de cursos pré-definidos). Valida campos vazios e formato de email (verificação do @).
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Estrutura de arquivos
+
+lib/
+├── main.dart      # Ponto de entrada do app e tela inicial
+├── login.dart     # Tela de login
+├── home.dart      # Tela home
+└── cadastro.dart  # Tela de cadastro
+
+Tecnologias
+
+
+Flutter
+Material Design (ThemeData, ColorScheme.fromSeed)
+
+
+Como executar
+
+
+Certifique-se de ter o Flutter SDK instalado.
+Clone este repositório.
+Instale as dependências:
+
+
+bash   flutter pub get
+
+
+Execute o aplicativo:
+
+
+bash   flutter run
+
+Credenciais de teste
+
+UsuárioSenha4rthur13567
