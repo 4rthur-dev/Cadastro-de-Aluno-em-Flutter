@@ -46,9 +46,3 @@ lib/
 |---------|-------|
 | 4rthur  | 13567 |
 
-## Próximos passos sugeridos
-
-- Implementar autenticação real (backend/API).
-- Persistir os dados de cadastro.
-- Adicionar validações mais robustas (ex: formato de email com regex).
-- Adicionar testes automatizados.
